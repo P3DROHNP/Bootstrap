@@ -1,0 +1,146 @@
+
+body {
+    background-color: #f4f4f9; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.cabeçalho {
+    background-color: #000000;
+    color: rgb(80, 92, 248);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.cabeçalho h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+
+.conteudo {
+    padding: 20px;
+}
+
+
+.fotoPerfil {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.fotoPerfil img {
+    width: 150px; 
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%; 
+    border: 4px solid #6483c5; 
+}
+
+.fotoPerfil h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-top: 15px;
+}
+
+.fotoPerfil p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+
+.atividades {
+    margin-top: 30px;
+}
+
+.atividades h4 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.table {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table th {
+    background-color: #003cff;
+    color: white;
+}
+
+.table td {
+    background-color: #f9f9f9;
+}
+
+.formulario {
+    margin-top: 40px;
+}
+
+.lista h4 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+@media (max-width: 768px) {
+    .fotoPerfil img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .fotoPerfil h3 {
+        font-size: 1.5em;
+    }
+
+    .fotoPerfil p {
+        font-size: 1em;
+    }
+
+    .table th, .table td {
+        font-size: 0.9em;
+    }
+
+    .btn-primary {
+        width: 100%;
+    }
+}
